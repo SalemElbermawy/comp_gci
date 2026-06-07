@@ -1,0 +1,4 @@
+1- data unbalanced 
+2- age is very important so lets see the age of 1 and zero 
+3- BMI is very important too
+4- Ratio btw Bench_Press / weight ( relative stregth ) src=GYM
