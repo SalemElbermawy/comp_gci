@@ -1,0 +1,86 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(0, 0, 0, 0.908);
+}
+
+header{
+    background-color: black;
+    height: 80px;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-around; 
+    height:100%;
+    align-items: center;
+    
+}
+
+.classIcons{
+    width: 30%;
+    /* background-color: aqua; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    
+
+}
+
+.pages{
+    width: 40%;
+    /* background-color: rgba(255, 119, 0, 0.401); */
+    justify-content: center;
+    text-align: center;
+    
+}
+
+
+.pages .navbarPages{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+.pages .navbarPages li  a{
+    display: block;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    background-color: bisque;
+    margin: 20px 15px;
+    border-radius: 3px;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.pages .navbarPages li  a:hover{
+    background-color: antiquewhite;
+    scale: 1.2;
+}
+
+
+.classIcons .icons{
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.classIcons .icons li a{
+    margin: 0 10px;
+    color: bisque;
+    font-size: 22px;
+    transition: 0.3s;
+}
+ 
+.classIcons .icons li a:hover{
+    color: antiquewhite;
+    transform: scale(1.1);
+}
