@@ -74,6 +74,7 @@ header{
 
 
 .classIcons .icons li a{
+    display: block;
     margin: 0 10px;
     color: bisque;
     font-size: 22px;
@@ -83,4 +84,16 @@ header{
 .classIcons .icons li a:hover{
     color: antiquewhite;
     transform: scale(1.1);
+}
+
+.container{
+    background-color: #f4f7f677;
+    margin: 10px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 10% ;
+    border-radius: 8px;
+    padding: 10px;
+    
 }

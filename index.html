@@ -35,7 +35,110 @@
         </nav>
     </header>
 
+    <main class="container">
+        <div class="form-box">
+            <h2><i class="fa-solid fa-id-card"></i> Player Information</h2>
+            <p>Enter Details To Predict Player Status</p>
 
+            <form id="predictionForm">
+                <div class="input-group">
+
+                    <div class="input-field">
+                        <label for="Age">Age</label>
+                        <div class="input-with-icon">
+                            <i class="fa-solid fa-calendar-days"></i>
+                            <input type="number" id="Age" step="0.1" placeholder="e.g. 21" required>
+                        </div>
+                    </div>
+
+                    <div class="input-field">
+                        <label for="Height">Height (inches)</label>
+
+                        <div class="input-with-icon">
+                            <i class="fa-solid fa-arrows-up-down"></i>
+                            <input type="number" id="Height" step="0.1" placeholder="74" required>
+
+                        </div>
+                    </div>
+
+                </div>
+
+
+                <div class="input-group">
+                    <div class="input-field">
+                        <label for="Sprint_40yd">Sprint 40yd (seconds)</label>
+                        <div class="input-with-icon">
+                            <i class="fa-solid fa-stopwatch"></i>
+                            <input type="number" id="Sprint_40yd" step="0.01" placeholder="e.g. 5" required>
+
+                        </div>
+                    </div>
+
+                    <div class="input-field">
+                        <label for="Vertical_Jump">Vertical_Jump</label>
+                        <div class="input-with-icon">
+                            <i class="fa-solid fa-arrow-trend-up"></i>
+                            <input type="number" id="Vertical_Jump" step="0.1" placeholder="e.g. 23" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-group">
+
+                    <div class="input-field">
+                        <label for="Bench_Press_Reps">Bench Press Reps</label>
+                        <div class="input-with-icon">
+                            <i class="fa-solid fa-dumbbell"></i>
+                            <input type="number" id="Bench_Press_Reps" placeholder="e.g. 15" required>
+                        </div>
+                    </div>
+
+                    <div class="input-field">
+                        <label for="Broad_Jump">Broad Jump (inches)</label>
+                        <div class="input-with-icon">
+                            <i class="fa-solid fa-ruler-horizontal"></i>
+                            <input type="number" id="Broad_Jump" step="0.1" placeholder="e.g. 120" required>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="input-group">
+                    <div class="input-field">
+                    <label for="Position_Type">Position Type</label>
+                    <div class="input-with-icon">
+                        <i class="fa-solid fa-user-gear"></i>
+                        <select  id="Player_Type" required>
+                            <option value="" disabled selected>Select Type</option>
+                            <option value="Offense">Offense</option>
+                            <option value="Defense">Defense</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="input-field">
+                    <label for="Position_Type">Position Type</label>
+                    <div class="input-with-icon">
+                        <i class="fa-solid fa-shield-halved"></i>
+
+                        <select  id="Position_Type">
+                            <option value="" disabled selected>Select Position</option>
+                            <option value="WR">WR</option>
+                            <option value="CB">CB</option>
+                            <option value="RB">RB</option>
+                            <option value="LB">LB</option>
+                        </select>
+                    </div>
+                </div>
+
+                </div>
+
+                <button type="submit" class="btn-submit">
+                    Predict Player <i class="fa-solid fa-wand-magic-sparkles"></i>
+                </button>
+            </form>
+        </div> <!-- formbox father -->
+    
+    </main>
 
     <script src="main.js"></script>
 </body>
