@@ -21,7 +21,7 @@ async function Model(event){
     };
     // start talking to the API
     try{
-        const response = await fetch('https://comp-gci.vercel.app/model',{
+        const response = await fetch('https://salemelbe-model-player.hf.space/model',{
             method:"POST",
             headers: {
                 "Content-Type":"application/json"
