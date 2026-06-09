@@ -5,6 +5,17 @@ import joblib
 from my_transform import My_Transform
 import sys
 
+from fastapi.middleware.cors import CORSMiddleware
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"]
+    
+)
+
 sys.modules['__main__'].My_Transform = My_Transform
 
 loaded_model=joblib.load("models/xgb_final_pipeline_deploy.pkl")
