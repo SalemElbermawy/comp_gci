@@ -1,7 +1,7 @@
 fastapi
-pydantic
 uvicorn
+pydantic
 pandas
-scikit-learn
-xgboost
 joblib
+scikit-learn
+https://github.com/pure-python/xgboost-cpu-wheels/raw/main/xgboost-2.0.3-py3-none-manylinux2014_x86_64.whl
