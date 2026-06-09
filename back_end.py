@@ -6,6 +6,7 @@ from my_transform import My_Transform
 import sys
 
 from fastapi.middleware.cors import CORSMiddleware
+app=FastAPI()
 
 app.add_middleware(
     CORSMiddleware,
@@ -21,7 +22,7 @@ sys.modules['__main__'].My_Transform = My_Transform
 loaded_model=joblib.load("models/xgb_final_pipeline_deploy.pkl")
 
 
-app=FastAPI()
+
 
 
 class Predict_Sample(BaseModel):
