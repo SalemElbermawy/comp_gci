@@ -33,6 +33,23 @@ This project is a Full-Stack Machine Learning application designed to predict pl
 * Successfully resolved server memory and storage limitations by shifting the environment configuration from Serverless to Containerized architecture.
 * Connected the frontend JavaScript logic to communicate directly with the live Hugging Face production URL endpoint.
 
+--- 
+
+
+## Tech Stack
+
+- Machine Learning: Python, XGBoost, Scikit-Learn, Pandas, Jupyter Notebook
+- Back-End: Python, FastAPI, Joblib, Pydantic
+- Front-End: HTML5, CSS3, JavaScript, FontAwesome
+- Deployment: Hugging Face Spaces, Docker
+
+## Installation
+
+To run the project locally:
+
+- Clone the repository
+- Install the required packages
+
 # Screen Shoots
 
 * In the navbar there is important links 
